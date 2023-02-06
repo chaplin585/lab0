@@ -1,0 +1,30 @@
+﻿<Window x:Class="lab0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab0"
+        mc:Ignorable="d"
+        Title="lab 0" Width="300px" Height="298px" >
+        <Grid>
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*"  />
+                        <ColumnDefinition Width="0.7*"  />
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="#FFFFFFFF"   Grid.Column="1" />
+                <StackPanel Grid.Column="0"   Orientation="Vertical" VerticalAlignment="Stretch">
+                        <Button Height="26px" Name="button" Click="ButtonClick" >Khaki</Button> 
+                        <Button Height="26px" Name="button1" Click="ButtonClick1" >Red</Button>
+                        <Button Height="26px" Name="button2" Click="ButtonClick2" >MediumVioletRed</Button>
+                        <Button Height="26px" Name="button3" Click="ButtonClick3" >Bisque</Button>
+                        <Button Height="26px" Name="button4" Click="ButtonClick4" >LemonChiffon</Button>
+                        <Button Height="26px" Name="button5" Click="ButtonClick5" >PowderBlue</Button>
+                        <Button Height="26px" Name="button6" Click="ButtonClick6" >MintCream</Button>
+                        <Button Height="26px" Name="button7" Click="ButtonClick7" >Maroon</Button>
+                        <Button Height="26px" Name="button8" Click="ButtonClick8" >RosyBrown</Button>
+                        <Button Height="26px" Name="button9" Click="ButtonClick9" >LightPink</Button>      
+                </StackPanel>
+        </Grid>        
+        
+        
+</Window>
